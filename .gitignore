@@ -1,0 +1,60 @@
+# Secrets and Environment Variables
+.env
+.env.*
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Model Binaries and Weights (downloaded at runtime via HuggingFace Hub)
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+.cache/
+hf_cache/
+
+# Temporary / Scratch Files & Browser Caches
+scratch/
+tmp/
+temp/
+chrome_temp/
+chrome_debug_profile/
+*.log
+*.tmp
+*.bak
+test_summary_output.txt
+test_sel.png
+screenshot_prototype_main.png
+app.py.backup.py
+app - Copy.py
+
