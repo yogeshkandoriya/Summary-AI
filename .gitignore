@@ -44,6 +44,7 @@ desktop.ini
 hf_cache/
 
 # Temporary / Scratch Files & Browser Caches
+bin/
 scratch/
 tmp/
 temp/
